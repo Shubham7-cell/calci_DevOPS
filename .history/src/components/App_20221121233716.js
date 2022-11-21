@@ -36,10 +36,25 @@ class App extends Component {
     }));
   };
 
+  /**
+   * This method calculates and returns the final value based on the buttons clicked
+   *
+   * @param item - each item contained in the array
+   * @param index - index of the item
+   *
+   * @return NumBtn component with appropriate rendered values
+   */
   createButtons = (item, index) => {
     return <NumberBtn label={item} clickedHandler={this.clickedHandler} />;
   };
 
+  /**
+   * This method calculates and returns the final value based on the buttons clicked
+   *
+   * @param arr - array of button values
+   *
+   * @return div - containing buttons with appropriate values
+   */
   createDivs = (arr) => {
     return <div>{arr.map(this.createButtons)}</div>;
   };

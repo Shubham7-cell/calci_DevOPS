@@ -10,6 +10,15 @@ function pressButtons(buttons) {
   return value;
 }
 
+/**
+ * This method executes the calculate method based on the buttons clicked
+ * and returns the resultant value
+ *
+ * @param buttons - array of buttons that are to be clicked
+ * @param expectation - the value that os expected as a result of the calculation
+ *
+ */
+
 function expectButtons(buttons, expectation) {
   expect(pressButtons(buttons)).toEqual(expectation);
   calc.reset();

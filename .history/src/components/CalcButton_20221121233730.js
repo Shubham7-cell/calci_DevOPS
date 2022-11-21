@@ -16,7 +16,12 @@ export default class CalcButton extends Component {
       />
     );
   }
-
+  /**
+   * This method is used to render and display the button component
+   *
+   * @param e - event payload
+   *
+   */
   clickHandler = (e) => {
     this.props.clickedHandler(e.target.value);
   };

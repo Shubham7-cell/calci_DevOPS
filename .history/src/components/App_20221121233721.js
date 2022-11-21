@@ -40,6 +40,13 @@ class App extends Component {
     return <NumberBtn label={item} clickedHandler={this.clickedHandler} />;
   };
 
+  /**
+   * This method calculates and returns the final value based on the buttons clicked
+   *
+   * @param arr - array of button values
+   *
+   * @return div - containing buttons with appropriate values
+   */
   createDivs = (arr) => {
     return <div>{arr.map(this.createButtons)}</div>;
   };

@@ -18,7 +18,7 @@ describe("check the operation of 2 numbers", () => {
   it("product of 6 and 8 must result in 48", () => {
     let prod = Util.mul(7, 8);
     expect(prod).toBeDefined();
-    expect(prod).toEqual(56);
+    expect(prod).toEqual(48);
   });
   it("result of division of 64 by 4 must result in 16", () => {
     let div = Util.div(64, 4);

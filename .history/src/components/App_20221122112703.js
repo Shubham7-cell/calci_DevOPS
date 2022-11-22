@@ -48,7 +48,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h3>Calculate with Shubham</h3>
+          <h3>Calculate with Shubham & Vyom</h3>
         </header>
 
         <div className="calc-body">

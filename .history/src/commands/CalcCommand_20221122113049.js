@@ -9,6 +9,7 @@ export default class CalculateCommand {
   }
 
   //  This method resets all the variables to default values
+
   reset() {
     this.currentDisplayValue = 0;
     this.lastDisplayValue = 0;

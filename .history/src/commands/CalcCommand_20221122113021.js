@@ -8,7 +8,10 @@ export default class CalculateCommand {
     this.currentData = 0; //stores the data object in the current state
   }
 
-  //  This method resets all the variables to default values
+  /**
+   * This method resets all the variables to default values
+   *
+   */
   reset() {
     this.currentDisplayValue = 0;
     this.lastDisplayValue = 0;
